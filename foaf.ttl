@@ -1,0 +1,28 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/alekmeckaroski/wbs/main/foaf.ttl>
+    a foaf:PersonalProfileDocument ;
+    foaf:maker <https://raw.githubusercontent.com/alekmeckaroski/wbs/main/foaf.ttl#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/alekmeckaroski/wbs/main/foaf.ttl#me> ;
+    ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/alekmeckaroski/wbs/main/foaf.ttl#me>
+    a foaf:Person ;
+    foaf:name "Aleksandar Mechkaroski" ;
+    foaf:title "Mr" ;
+    foaf:givenname "Aleksandar" ;
+    foaf:family_name "Mechkaroski" ;
+    foaf:nick "alek" ;
+    foaf:mbox_sha1sum "8dbc91798a98f76602e10094f822d4aea8f093ac" ;
+    foaf:homepage <https://raw.githubusercontent.com/alekmeckaroski/wbs/main/alekmeckaroski.github.io> ;
+    foaf:phone <tel:00310613201240> ;
+    foaf:workplaceHomepage <https://raw.githubusercontent.com/alekmeckaroski/wbs/main/lunatech.com> ;
+    foaf:knows [
+          a foaf:Person ;
+          foaf:name "Kire Markoski" ;
+          foaf:mbox_sha1sum "69df23292feccd1618909d2e14bc87316dc7e466" ;
+          rdfs:seeAlso <https://dbpedia.org/page/Kire_Markoski>
+      ] .
